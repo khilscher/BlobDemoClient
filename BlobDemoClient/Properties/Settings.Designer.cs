@@ -22,16 +22,5 @@ namespace BlobDemoClient.Properties {
                 return defaultInstance;
             }
         }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("DefaultEndpointsProtocol=https;AccountName=khblobdemoclient;AccountKey=KE7GR+kTzy" +
-            "64wTix0GM3f4nLTwruBZWCuxoZ8+8ZzP/+nuhANFYNclXcO7P4xfwB9tnut1sw0oEbBrd0pjPAqA==")]
-        public string StorageConnectionString {
-            get {
-                return ((string)(this["StorageConnectionString"]));
-            }
-        }
     }
 }
